@@ -11,7 +11,6 @@ phases:
       - mvn test -Dtest=MainAppTest
       - mvn package
       - tar -cvzf artifact.tar.gz appspec.yml target/main-app-0.1-SNAPSHOT.jar
-      - mvn exec:java
 artifacts:
   files:
     - artifact.tar.gz
