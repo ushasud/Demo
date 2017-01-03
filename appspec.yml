@@ -3,6 +3,3 @@ os: linux
 hooks:
   BeforeInstall:
     - location: tar -xvzf artifact.tar.gz
-  AfterInstall:    
-  ApplicationStart:
-  ValidateService:
