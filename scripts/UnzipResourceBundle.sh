@@ -1,2 +1,3 @@
 echo "Unzip here"
-mvn exec:java
+mvn clean package
+mvn exec:java -Dexec.mainClass="com.drastin.MainApp"
