@@ -2,4 +2,4 @@ version: 0.0
 os: linux
 hooks:
   BeforeInstall:
-    - location: tar -xvzf artifact.tar.gz
+    - location: scripts/UnzipResourceBundle.sh
