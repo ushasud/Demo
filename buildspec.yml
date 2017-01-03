@@ -8,7 +8,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - mvn test -Dtest=AppTest
+      - mvn test -Dtest=MainAppTest
       - mvn package
       - tar -cvzf artifact.tar.gz appspec.yml target/main-app-0.1-SNAPSHOT.jar
 artifacts:
