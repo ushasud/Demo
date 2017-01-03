@@ -1,1 +1,1 @@
-tar -xvzf ../artifact.tar.gz
+echo "Unzip here"
