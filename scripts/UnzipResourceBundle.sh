@@ -1,1 +1,1 @@
-tar -xvzf artifact.tar.gz
+tar -xvzf ../artifact.tar.gz
