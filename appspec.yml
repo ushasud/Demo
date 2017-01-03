@@ -3,9 +3,4 @@ version: 0.0
 os: linux
 hooks:
   BeforeInstall:
-    - location: tar -xvzf artifact.tar.gz
-  AfterInstall:
-    
-  ApplicationStart:
-  ValidateService:
-     
+    - location: scripts/UnzipResourceBundle.sh    
